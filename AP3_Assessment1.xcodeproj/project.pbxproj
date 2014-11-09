@@ -8,12 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		633391C41A0FF9CD00A6EA5B /* finddupl.c in Sources */ = {isa = PBXBuildFile; fileRef = 633391B91A0FF9CD00A6EA5B /* finddupl.c */; };
-		633391C51A0FF9CD00A6EA5B /* finddupl.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 633391BA1A0FF9CD00A6EA5B /* finddupl.o */; };
 		633391C61A0FF9CD00A6EA5B /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = 633391BB1A0FF9CD00A6EA5B /* makefile */; };
 		633391C71A0FF9CD00A6EA5B /* mentry.c in Sources */ = {isa = PBXBuildFile; fileRef = 633391BC1A0FF9CD00A6EA5B /* mentry.c */; };
-		633391C81A0FF9CD00A6EA5B /* mentry.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 633391BE1A0FF9CD00A6EA5B /* mentry.o */; };
 		633391C91A0FF9CD00A6EA5B /* mlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 633391BF1A0FF9CD00A6EA5B /* mlist.c */; };
-		633391CA1A0FF9CD00A6EA5B /* mlist.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 633391C11A0FF9CD00A6EA5B /* mlist.o */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,14 +31,11 @@
 		633391B71A0FF9CD00A6EA5B /* B.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = B.txt; sourceTree = "<group>"; };
 		633391B81A0FF9CD00A6EA5B /* finddupl */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = finddupl; sourceTree = "<group>"; };
 		633391B91A0FF9CD00A6EA5B /* finddupl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = finddupl.c; sourceTree = "<group>"; };
-		633391BA1A0FF9CD00A6EA5B /* finddupl.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = finddupl.o; sourceTree = "<group>"; };
 		633391BB1A0FF9CD00A6EA5B /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
 		633391BC1A0FF9CD00A6EA5B /* mentry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mentry.c; sourceTree = "<group>"; };
 		633391BD1A0FF9CD00A6EA5B /* mentry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mentry.h; sourceTree = "<group>"; };
-		633391BE1A0FF9CD00A6EA5B /* mentry.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = mentry.o; sourceTree = "<group>"; };
 		633391BF1A0FF9CD00A6EA5B /* mlist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mlist.c; sourceTree = "<group>"; };
 		633391C01A0FF9CD00A6EA5B /* mlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mlist.h; sourceTree = "<group>"; };
-		633391C11A0FF9CD00A6EA5B /* mlist.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = mlist.o; sourceTree = "<group>"; };
 		633391C21A0FF9CD00A6EA5B /* out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = out.txt; sourceTree = "<group>"; };
 		633391C31A0FF9CD00A6EA5B /* S.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = S.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,9 +45,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				633391CA1A0FF9CD00A6EA5B /* mlist.o in Frameworks */,
-				633391C81A0FF9CD00A6EA5B /* mentry.o in Frameworks */,
-				633391C51A0FF9CD00A6EA5B /* finddupl.o in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,14 +74,11 @@
 				633391B71A0FF9CD00A6EA5B /* B.txt */,
 				633391B81A0FF9CD00A6EA5B /* finddupl */,
 				633391B91A0FF9CD00A6EA5B /* finddupl.c */,
-				633391BA1A0FF9CD00A6EA5B /* finddupl.o */,
 				633391BB1A0FF9CD00A6EA5B /* makefile */,
 				633391BC1A0FF9CD00A6EA5B /* mentry.c */,
 				633391BD1A0FF9CD00A6EA5B /* mentry.h */,
-				633391BE1A0FF9CD00A6EA5B /* mentry.o */,
 				633391BF1A0FF9CD00A6EA5B /* mlist.c */,
 				633391C01A0FF9CD00A6EA5B /* mlist.h */,
-				633391C11A0FF9CD00A6EA5B /* mlist.o */,
 				633391C21A0FF9CD00A6EA5B /* out.txt */,
 				633391C31A0FF9CD00A6EA5B /* S.txt */,
 			);
