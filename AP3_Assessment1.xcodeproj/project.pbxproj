@@ -29,7 +29,6 @@
 		633391AC1A0FF91A00A6EA5B /* AP3_Assessment1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AP3_Assessment1; sourceTree = BUILT_PRODUCTS_DIR; };
 		633391B61A0FF9CD00A6EA5B /* A.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = A.txt; sourceTree = "<group>"; };
 		633391B71A0FF9CD00A6EA5B /* B.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = B.txt; sourceTree = "<group>"; };
-		633391B81A0FF9CD00A6EA5B /* finddupl */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = finddupl; sourceTree = "<group>"; };
 		633391B91A0FF9CD00A6EA5B /* finddupl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = finddupl.c; sourceTree = "<group>"; };
 		633391BB1A0FF9CD00A6EA5B /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
 		633391BC1A0FF9CD00A6EA5B /* mentry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mentry.c; sourceTree = "<group>"; };
@@ -72,7 +71,6 @@
 			children = (
 				633391B61A0FF9CD00A6EA5B /* A.txt */,
 				633391B71A0FF9CD00A6EA5B /* B.txt */,
-				633391B81A0FF9CD00A6EA5B /* finddupl */,
 				633391B91A0FF9CD00A6EA5B /* finddupl.c */,
 				633391BB1A0FF9CD00A6EA5B /* makefile */,
 				633391BC1A0FF9CD00A6EA5B /* mentry.c */,
