@@ -1,0 +1,100 @@
+Potential duplicate
+===================
+Dr F Hume
+3 Hemlock Street, Aberdeen
+AB35 4CB
+==========
+Prof F Hume
+3 Hemlock Street, Aberdeen
+AB35 4CB
+
+Potential duplicate
+===================
+Mr F Miller
+6 Oak Way, Dundee
+DD76 3CB
+==========
+Dr F Miller
+6 Oak Way, Dundee
+DD76 3CB
+
+Potential duplicate
+===================
+Ms C Fraser
+1 Birch Avenue, Edinburgh
+EH97 2DF
+==========
+Mr C Fraser
+1 Birch Avenue, Edinburgh
+EH97 2DF
+
+Potential duplicate
+===================
+Dr A Miller
+1 Alder Road, Edinburgh
+EH36 7DA
+==========
+Prof A Miller
+1 Alder Road, Edinburgh
+EH36 7DA
+
+Potential duplicate
+===================
+Mr E Hume
+10 Cypress Circle, Glasgow
+G30 1AB
+==========
+Dr E Hume
+10 Cypress Circle, Glasgow
+G30 1AB
+
+Potential duplicate
+===================
+Mrs A Hume
+7 Birch Boulevard, Inverness
+IV53 6CE
+==========
+Ms A Hume
+7 Birch Boulevard, Inverness
+IV53 6CE
+
+Potential duplicate
+===================
+Ms E Cameron
+1 Cypress Way, Dundee
+DD37 9DB
+==========
+Mr E Cameron
+1 Cypress Way, Dundee
+DD37 9DB
+
+Potential duplicate
+===================
+Ms C Fraser
+10 Oak Road, Aberdeen
+AB46 2CF
+==========
+Mr C Fraser
+10 Oak Road, Aberdeen
+AB46 2CF
+
+Potential duplicate
+===================
+Mrs E Brown
+4 Maple Circle, Dundee
+DD97 5BE
+==========
+Ms E Brown
+4 Maple Circle, Dundee
+DD97 5BE
+
+Potential duplicate
+===================
+Prof F Miller
+3 Maple Road, Edinburgh
+EH73 3CE
+==========
+Mrs F Miller
+3 Maple Road, Edinburgh
+EH73 3CE
+

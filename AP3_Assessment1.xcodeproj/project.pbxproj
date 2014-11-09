@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		633391B01A0FF91A00A6EA5B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 633391AF1A0FF91A00A6EA5B /* main.c */; };
+		633391C41A0FF9CD00A6EA5B /* finddupl.c in Sources */ = {isa = PBXBuildFile; fileRef = 633391B91A0FF9CD00A6EA5B /* finddupl.c */; };
+		633391C51A0FF9CD00A6EA5B /* finddupl.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 633391BA1A0FF9CD00A6EA5B /* finddupl.o */; };
+		633391C61A0FF9CD00A6EA5B /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = 633391BB1A0FF9CD00A6EA5B /* makefile */; };
+		633391C71A0FF9CD00A6EA5B /* mentry.c in Sources */ = {isa = PBXBuildFile; fileRef = 633391BC1A0FF9CD00A6EA5B /* mentry.c */; };
+		633391C81A0FF9CD00A6EA5B /* mentry.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 633391BE1A0FF9CD00A6EA5B /* mentry.o */; };
+		633391C91A0FF9CD00A6EA5B /* mlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 633391BF1A0FF9CD00A6EA5B /* mlist.c */; };
+		633391CA1A0FF9CD00A6EA5B /* mlist.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 633391C11A0FF9CD00A6EA5B /* mlist.o */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,20 @@
 /* Begin PBXFileReference section */
 		633391AC1A0FF91A00A6EA5B /* AP3_Assessment1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AP3_Assessment1; sourceTree = BUILT_PRODUCTS_DIR; };
 		633391AF1A0FF91A00A6EA5B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		633391B61A0FF9CD00A6EA5B /* A.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = A.txt; sourceTree = "<group>"; };
+		633391B71A0FF9CD00A6EA5B /* B.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = B.txt; sourceTree = "<group>"; };
+		633391B81A0FF9CD00A6EA5B /* finddupl */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = finddupl; sourceTree = "<group>"; };
+		633391B91A0FF9CD00A6EA5B /* finddupl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = finddupl.c; sourceTree = "<group>"; };
+		633391BA1A0FF9CD00A6EA5B /* finddupl.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = finddupl.o; sourceTree = "<group>"; };
+		633391BB1A0FF9CD00A6EA5B /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		633391BC1A0FF9CD00A6EA5B /* mentry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mentry.c; sourceTree = "<group>"; };
+		633391BD1A0FF9CD00A6EA5B /* mentry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mentry.h; sourceTree = "<group>"; };
+		633391BE1A0FF9CD00A6EA5B /* mentry.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = mentry.o; sourceTree = "<group>"; };
+		633391BF1A0FF9CD00A6EA5B /* mlist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mlist.c; sourceTree = "<group>"; };
+		633391C01A0FF9CD00A6EA5B /* mlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mlist.h; sourceTree = "<group>"; };
+		633391C11A0FF9CD00A6EA5B /* mlist.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = mlist.o; sourceTree = "<group>"; };
+		633391C21A0FF9CD00A6EA5B /* out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = out.txt; sourceTree = "<group>"; };
+		633391C31A0FF9CD00A6EA5B /* S.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = S.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +53,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				633391CA1A0FF9CD00A6EA5B /* mlist.o in Frameworks */,
+				633391C81A0FF9CD00A6EA5B /* mentry.o in Frameworks */,
+				633391C51A0FF9CD00A6EA5B /* finddupl.o in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +81,20 @@
 		633391AE1A0FF91A00A6EA5B /* AP3_Assessment1 */ = {
 			isa = PBXGroup;
 			children = (
+				633391B61A0FF9CD00A6EA5B /* A.txt */,
+				633391B71A0FF9CD00A6EA5B /* B.txt */,
+				633391B81A0FF9CD00A6EA5B /* finddupl */,
+				633391B91A0FF9CD00A6EA5B /* finddupl.c */,
+				633391BA1A0FF9CD00A6EA5B /* finddupl.o */,
+				633391BB1A0FF9CD00A6EA5B /* makefile */,
+				633391BC1A0FF9CD00A6EA5B /* mentry.c */,
+				633391BD1A0FF9CD00A6EA5B /* mentry.h */,
+				633391BE1A0FF9CD00A6EA5B /* mentry.o */,
+				633391BF1A0FF9CD00A6EA5B /* mlist.c */,
+				633391C01A0FF9CD00A6EA5B /* mlist.h */,
+				633391C11A0FF9CD00A6EA5B /* mlist.o */,
+				633391C21A0FF9CD00A6EA5B /* out.txt */,
+				633391C31A0FF9CD00A6EA5B /* S.txt */,
 				633391AF1A0FF91A00A6EA5B /* main.c */,
 			);
 			path = AP3_Assessment1;
@@ -118,7 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				633391C71A0FF9CD00A6EA5B /* mentry.c in Sources */,
 				633391B01A0FF91A00A6EA5B /* main.c in Sources */,
+				633391C41A0FF9CD00A6EA5B /* finddupl.c in Sources */,
+				633391C91A0FF9CD00A6EA5B /* mlist.c in Sources */,
+				633391C61A0FF9CD00A6EA5B /* makefile in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
