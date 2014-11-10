@@ -1,3 +1,8 @@
+/**
+ * Samacharn Sankul, 2165128s, AP3 Excercise 1
+ * This is my own work as defined in the Academic Ethics agreement I have signed.
+ **/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -37,11 +42,13 @@ MList* ml_create(void)
     if (ml_verbose)
         fprintf(stderr, "mlist: creating mailing list\n");
     
-    if ((ml = (MList *) calloc(1, sizeof(MList))) != NULL)
+    if ((ml = (MList *) calloc(1, sizeof(MList))) != NULL) {
         if ((ml->hash_table = (MLinkList *) calloc(INIT_SIZE, sizeof(MLinkList))) != NULL) {
             ml->size = INIT_SIZE;
             return ml;
         }
+        free((void *) ml);
+    }
     
     return NULL;
 }
@@ -90,7 +97,7 @@ int ml_add(MList **ml, MEntry *me)
                     ml_add(ml, cur->entry);
                     freed = cur;
                     cur = cur->next;
-                    free(freed);
+                    free((void *) freed);
                 }
             }
             free((void *) old_t);

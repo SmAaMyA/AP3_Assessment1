@@ -1,3 +1,8 @@
+/**
+ * Samacharn Sankul, 2165128s, AP3 Excercise 1
+ * This is my own work as defined in the Academic Ethics agreement I have signed.
+ **/
+
 #ifndef _MENTRY_H_
 #define _MENTRY_H_
 

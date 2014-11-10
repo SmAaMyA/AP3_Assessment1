@@ -1,3 +1,8 @@
+/**
+ * Samacharn Sankul, 2165128s, AP3 Excercise 1
+ * This is my own work as defined in the Academic Ethics agreement I have signed.
+ **/
+
 #include <ctype.h>
 #include <stdlib.h>
 #include <string.h>
@@ -47,6 +52,8 @@ MEntry* me_get(FILE *fd)
             store = word;
         strcpy(me->surname, store);
     }
+    for (i = 0; i < strlen(me->surname); ++i)
+        me->surname[i] = tolower(me->surname[i]);
     
     /* add house number into a mail entry */
     me->house_number = atoi(strtok(line[1], " ,"));
@@ -56,7 +63,7 @@ MEntry* me_get(FILE *fd)
         goto error_mem_alloc;
     for (i = 0, j = 0; i < strlen(line[2]); ++i)
         if (isalnum(line[2][i])) {			// read only alphanumeric character from string
-            me->postcode[j] = line[2][i];	// append to string
+            me->postcode[j] = tolower(line[2][i]);	// append to string
             ++j;
         }
     me->postcode[j] = '\0';		// append NULL to the end of string
