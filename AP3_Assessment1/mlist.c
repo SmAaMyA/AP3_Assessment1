@@ -130,6 +130,10 @@ void ml_destroy(MList *ml)
 {
     MListNode *cur, *freed;
     unsigned long i;
+    
+    if (ml_verbose)
+        fprintf(stderr, "mlist: ml_destroy() entered\n");
+    
     for (i = 0; i < ml->size; ++i) {	// iterate to all buckets in hash table
         for (cur = ml->hash_table[i].first; cur != NULL;) {		// iterate to all nodes in a bucket
             freed = cur;				// remember the node to be destroy
